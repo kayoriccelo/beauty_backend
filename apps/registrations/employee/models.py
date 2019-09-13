@@ -11,6 +11,8 @@ class Employee(models.Model):
     phone = models.CharField(max_length=20, null=True, blank=True)
     adresses = models.ForeignKey('address.Address', verbose_name='address', related_name="employee",
                                  on_delete=models.PROTECT)
+    company = models.ForeignKey('company.Company', verbose_name='company', related_name="employee",
+                                on_delete=models.PROTECT)
 
     class Meta:
         verbose_name = 'employee'
