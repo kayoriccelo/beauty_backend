@@ -56,6 +56,7 @@ BEAUTY_APP = [
     'apps.registrations.employee',
     'apps.registrations.role',
     'apps.registrations.service',
+    'apps.actions.stock',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + THIRD_APPS + BEAUTY_APP
