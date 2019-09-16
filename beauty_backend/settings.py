@@ -56,6 +56,7 @@ BEAUTY_APP = [
     'apps.registrations.employee',
     'apps.registrations.role',
     'apps.registrations.service',
+    'apps.registrations.client',
     'apps.actions.stock',
 ]
 
